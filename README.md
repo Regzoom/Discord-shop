@@ -1,4 +1,5 @@
 # 🛒 Shop Discord Bot Documnetation
+</img src="assets/img/start_photo.png">
 
 This is a template for building a Discord bot using the `discord.js`, `mongoose` libraries
 
