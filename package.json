@@ -1,0 +1,33 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "A discord bot for accepting orders through tickets, keeping records of each seller's weekly revenue and the ability to upload goods to an internal storage",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Regzoom/shop.git"
+  },
+  "author": "Regzoom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Regzoom/shop/issues"
+  },
+  "homepage": "https://github.com/Regzoom/shop#readme",
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "@types/node": "^20.14.5",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.4.3",
+    "node-cron": "^3.0.3",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11"
+  }
+}
